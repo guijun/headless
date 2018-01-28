@@ -1,29 +1,29 @@
 {
   "name": "headless",
-  "description": "TrustNote headless wallet",
-  "author": "TrustNote",
+  "description": "GAEA headless wallet",
+  "author": "GAEA",
   "version": "0.1.0",
   "main": "start.js",
   "keywords": [
     "wallet",
     "headless",
-    "trustnote",
+    "GAEA",
     "full node"
   ],
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/trustnote/headless.git",
+    "url": "https://github.com/guijun/headless.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://gihub.com/trustnote/headless/issues"
+    "url": "https://github.com/guijun/headless/issues"
   },
   "browser": {
     "request": "browser-request",
     "secp256k1": "secp256k1/js"
   },
   "dependencies": {
-    "trustnote-common": "git+ssh://git@gihub.com/trustnote/common.git",
+    "guijun-common": "git+ssh://git@github.com/guijun/common.git",
     "bitcore-lib": "^0.13.14",
     "bitcore-mnemonic": "~1.0.0",
     "json-rpc2": "^1.0.2"
